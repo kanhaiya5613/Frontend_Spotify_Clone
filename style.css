@@ -12,13 +12,12 @@
     width: 25vw;
     /* padding: px; */
     margin-top: -5px; 
-    
 }
 
 .right {
     width: 75vw;
-    
     position: relative;
+    
 }
 
 .home ul li {
@@ -99,7 +98,7 @@
     border-radius: 5px;
     position: relative;
     transition: all 0.9s;
-
+    flex-wrap: wrap;
 }
 .card:hover{
     background-color: #546168;
@@ -378,6 +377,5 @@
    .right{
     margin: 0;
    }
-   
   }
   
