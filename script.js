@@ -60,7 +60,7 @@ async function getSongs(folder) {
     Array.from(songUL.children).forEach((li, index) => {
         li.addEventListener("click", () => {
            // console.log(li);
-            let song = songs[index].split(`${folder}`)[1]; // Get the song filename
+            let song = songs[index].split(`/${folder}/`)[1]; // Get the song filename
            // console.log(song);
             playmusic(song);
         });
