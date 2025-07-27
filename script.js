@@ -21,7 +21,7 @@ function convertSeconds(seconds) {
 // Fetch all the songs
 async function getSongs(folder) {
     currFolder=folder;
-    let a = await fetch(`http://127.0.0.1:5500/${folder}`);
+    let a = await fetch(`${folder}`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
