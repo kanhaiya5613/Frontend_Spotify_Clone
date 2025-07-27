@@ -83,7 +83,7 @@ const playmusic = (track, pause = false) => {
 // Function to initialize the app
 async function main() {
     // Get all songs
-    currFolder = "ncs";
+    currFolder = "HoneySingh";
     await getSongs(`songs/${currFolder}`);
     Array.from(document.getElementsByClassName("card")).forEach(e=>{
          

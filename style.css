@@ -12,6 +12,7 @@
     width: 25vw;
     /* padding: px; */
     margin-top: -5px; 
+    
 }
 
 .right {
@@ -323,6 +324,7 @@
         margin-top: 0px;
         height: 100%;
     }
+    
     .left .library ul{
         height: 90%;
     }
@@ -349,7 +351,8 @@
         padding-left: 1rem;
     }
     .card{
-        width: auto;
+        width: 40%;
+        
     }
     .abovebar{
         flex-direction: column;
@@ -375,5 +378,6 @@
    .right{
     margin: 0;
    }
+   
   }
   
