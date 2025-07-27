@@ -38,6 +38,7 @@ async function getSongs(folder) {
     let songUL = document.querySelector(".songlist").getElementsByTagName("ul")[0];
     songUL.innerHTML="";
     for (const song of songs) {
+        const Artist_name = folder.split("/")[1];
         let song_name = song.split(`${folder}/`)[1]
             .split("(From")[0]
             .split("Full")[0]
@@ -50,7 +51,7 @@ async function getSongs(folder) {
                             <img src="music.svg" alt="music">
                             <div class="info">
                                <div> ${song_name} </div>
-                                <div>Arijit singh</div> 
+                                <div>${Artist_name}</div> 
                                 </div> 
                             </div> 
                              <img src="play.svg" alt="play">
